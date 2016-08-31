@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>车辆定位</title>
+	
+	<link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7163f5fe50d3ce552da4d13d61ca3612"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+	<!-- 模板 -->
+	<script id="test" type="text/html">
+			<!-- 内容 -->
+			{{each datasoure as value }}
+			<tr class="contenttr">
+				<td class="col-md-1">{{value.num}}</td>
+				<td class="col-md-1">{{value.carnum}}</td>
+				<td class="col-md-1">{{value.department}}</td>
+				<td class="col-md-1">{{value.driver}}</td>
+				<td class="col-md-2">{{value.tel}}</td>
+				<td class="col-md-1">{{value.speed}}</td>
+				<td class="col-md-2">{{value.trafficstate}}</td>
+				<td class="col-md-1">{{value.taskstate}}</td>
+				<td class="col-md-3">{{value.currentposition}}</td>
+			</tr>
+			{{/each}}
+		
+	</script>
+</head>
+<body>
+
+	<div class="content-paneled">
+		<div class="content">
+			<div class="title">
+				<div class="title-left pull-left">首页</div>
+				<div class="title-right pull-right"><a href="javascript:void(0)"><span class="glyphicon glyphicon-remove"></span></a></div>
+			</div>
+			<div class="content-map">
+				<div class="content-map-title">
+					<div class="content-map-title-left pull-left">重庆</div>
+					<div class="content-map-title-right pull-right">
+						<span class="glyphicon glyphicon-refresh" id="refresh" style="vertical-align:middle" title="刷新"></span>
+						<button class="btn btn-default btn-info btnback"><span class="glyphicon glyphicon-repeat" style="margin-right: 5px"></span>返回</button>
+					</div>
+				</div>
+				<div id="map"></div>
+				<div class="DIV-tablehead container-fluid">
+					<div class="row">
+						<table  class="table table-striped">
+							<tr style="background-color:#999">
+								<td class="col-md-1">序号</td>
+								<td class="col-md-1">车牌号</td>
+								<td class="col-md-1">部门</td>
+								<td class="col-md-1">司机</td>
+								<td class="col-md-2">联系电话</td>
+								<td class="col-md-1">当前速度(km/h)</td>
+								<td class="col-md-2">行驶状态</td>
+								<td class="col-md-1">任务状态</td>
+								<td class="col-md-3">当前位置<span class="glyphicon glyphicon-triangle-top pull-right" style="font-size:20px;cursor:pointer;margin-right:12px;" id="folding"></span></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="table-foot container-fluid">
+					<div class="row">
+						<table class="table table-striped" id="maintable">
+							<tbody id="table-body"></tbody>
+						</table>
+					</div>
+				</div>
+				<div class="scroll">
+					<div class="scroll-top"><span class="glyphicon glyphicon-triangle-top" style="font-size:12px;top:0"></span></div>
+					<div class="scroll-slider"><div class="scroll-bar"></div></div>
+					<div class="scroll-bottom"><span class="glyphicon glyphicon-triangle-bottom" style="font-size:12px;"></span></div>
+				</div>
+				<div class="page">
+					<div class="list">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="info-panel" style="display: none"></div>
+	<script type="text/javascript" src="public/jquery.js"></script>
+	<script type="text/javascript" src="public/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="public/bootstrap-table.js"></script>
+	<script type="text/javascript" src="public/bootstrap-table-zh-CN.js"></script>
+	<script type="text/javascript" src="public/template.js"></script>
+	<!-- <script type="text/javascript" src="public/jquery.tablescroll.js"></script> -->
+	<script type="text/javascript" src="script/map.js"></script>
+	<script type="text/javascript" src="script/index.js"></script>	
+</body>
+</html>

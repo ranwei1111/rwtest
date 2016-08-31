@@ -1,0 +1,27 @@
+{
+	"datasoure":
+	[
+		{"num":"01","carnum":"渝ARS111","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2013-1-4","position":[{"lat":"29.516889","lng":"106.586198"}]},
+		{"num":"02","carnum":"渝PDJ222","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2016-8-8","position":[{"lat":"29.520724","lng":"106.53733"}]},
+		{"num":"03","carnum":"赣ALF333","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2015-2-11","position":[{"lat":"29.568107","lng":"106.598415"}]},
+		{"num":"04","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"05","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"06","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"07","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"08","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"09","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"010","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"011","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"01","carnum":"渝ARS111","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2013-1-4","position":[{"lat":"29.516889","lng":"106.586198"}]},
+		{"num":"02","carnum":"渝PDJ222","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2016-8-8","position":[{"lat":"29.520724","lng":"106.53733"}]},
+		{"num":"03","carnum":"赣ALF333","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2015-2-11","position":[{"lat":"29.568107","lng":"106.598415"}]},
+		{"num":"04","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"05","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"06","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"07","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"08","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"09","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"010","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]},
+		{"num":"011","carnum":"渝GDF444","department":"综合部","driver":"小冉","tel":"18716933223","speed":"70","trafficstate":"运动","taskstate":"进行中","currentposition":"重庆市南岸区茶园新区玉马路8号","time":"2014-7-8","position":[{"lat":"29.459356","lng":"106.543655"}]}
+	]
+}
